@@ -64,6 +64,9 @@
     <Compile Include="Assets/PathCreator/Examples/Scripts/PathSceneTool.cs" />
     <Compile Include="Assets/PathCreator/Examples/Scripts/PathFollower.cs" />
     <Compile Include="Assets/PathCreator/Examples/Scripts/RoadMeshCreator.cs" />
+    <Compile Include="Assets/Scripts/GameController.cs" />
+    <Compile Include="Assets/Scripts/Player.cs" />
+    <Compile Include="Assets/Scripts/Enemy.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
