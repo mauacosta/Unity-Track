@@ -57,16 +57,24 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets/PathCreator/Examples/Scripts/PathSpawner.cs" />
+    <Compile Include="Assets/Scripts/Enemy.cs" />
     <Compile Include="Assets/Scripts/Particle.cs" />
     <Compile Include="Assets/Scripts/Car.cs" />
+    <Compile Include="Assets/Scripts/GameController.cs" />
     <Compile Include="Assets/PathCreator/Examples/Scripts/GeneratePathExample.cs" />
+    <Compile Include="Assets/Scripts/Player.cs" />
     <Compile Include="Assets/PathCreator/Examples/Scripts/PathPlacer.cs" />
     <Compile Include="Assets/PathCreator/Examples/Scripts/PathSceneTool.cs" />
     <Compile Include="Assets/PathCreator/Examples/Scripts/PathFollower.cs" />
     <Compile Include="Assets/PathCreator/Examples/Scripts/RoadMeshCreator.cs" />
-    <Compile Include="Assets/Scripts/GameController.cs" />
-    <Compile Include="Assets/Scripts/Player.cs" />
-    <Compile Include="Assets/Scripts/Enemy.cs" />
+    <Compile Include="Assets/Mini First Person Controller/Scripts/FirstPersonMovement.cs" />
+    <Compile Include="Assets/Mini First Person Controller/Scripts/FirstPersonLook.cs" />
+    <Compile Include="Assets/Mini First Person Controller/Scripts/Components/Jump.cs" />
+    <Compile Include="Assets/Mini First Person Controller/Scripts/Components/FirstPersonAudio.cs" />
+    <Compile Include="Assets/Mini First Person Controller/Scripts/Components/Crouch.cs" />
+    <Compile Include="Assets/Mini First Person Controller/Scripts/Components/GroundCheck.cs" />
+    <Compile Include="Assets/Mini First Person Controller/Scripts/Components/Zoom.cs" />
+    <Compile Include="Assets/Scripts/CameraMovement.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
