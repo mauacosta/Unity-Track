@@ -75,6 +75,8 @@
     <Compile Include="Assets/Mini First Person Controller/Scripts/Components/GroundCheck.cs" />
     <Compile Include="Assets/Mini First Person Controller/Scripts/Components/Zoom.cs" />
     <Compile Include="Assets/Scripts/CameraMovement.cs" />
+    <Compile Include="Assets/Scripts/ParticleController.cs" />
+    <Compile Include="Assets/Scripts/Math3D.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
